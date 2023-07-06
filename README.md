@@ -5,9 +5,11 @@
 `npm install yu-component-library`
 
 ## example
-
+```javascript
+// Import the library
 import ListDeroulant from 'yu-component-library'
 
+// Usage example
 const App = () => (
   <div >
     <h1>Hello React</h1>
