@@ -1,3 +1,22 @@
-# simple-component-libraryA library of React components created using `create-react-app`.
+# simple-component-libraryA library of React components created using 
+`create-react-app`.
 
-## InstallationRun the following command:`npm install yu-component-library`
+## InstallationRun the following command:
+`npm install yu-component-library`
+
+## example
+
+import ListDeroulant from 'yu-component-library'
+
+const App = () => (
+  <div >
+    <h1>Hello React</h1>
+    <ListDeroulant 
+    datas = {states}
+    optionName='name'
+    valueName='abbreviation'
+    onChange={(value)=>console.log(value)}
+    />
+  </div>
+);
+
