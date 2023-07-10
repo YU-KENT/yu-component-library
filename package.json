@@ -1,6 +1,6 @@
 {
   "name": "yu-component-library",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -34,9 +34,10 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.15.8",
-    "@babel/core": "^7.15.5",
-    "@babel/preset-env": "^7.15.6",
+    "@babel/core": "^7.22.8",
     "@babel/plugin-proposal-private-property-in-object": "^7.14.5",
+    "@babel/preset-env": "^7.22.7",
+    "@babel/preset-react": "^7.22.5",
     "react-scripts": "5.0.1"
   },
   "peerDependencies": {
@@ -45,9 +46,21 @@
   },
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/YU-KENT/yu-component-library"
+  },
+  "babel": {
+    "presets": [
+      [
+        "react-app",
+        {
+          "runtime": "automatic"
+        }
+      ]
+    ]
   }
 }
