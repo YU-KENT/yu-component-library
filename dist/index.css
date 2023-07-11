@@ -1,0 +1,43 @@
+.bloc
+  {
+  display:inline-block; 
+  overflow:hidden; 
+  }
+
+
+#myselect{
+  outline: none;
+  /* -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; */
+  height:33px;
+  background: #f6f6f6;
+  border: 1px solid #c5c5c5;
+  padding: 6px 12px;
+  border-radius: 3px;
+  font-size: 16px;
+    
+  }
+#myselect:focus,
+#myselect:hover{
+    background: #ededed;
+    border: 1px solid #cccccc;
+  }
+
+#myselect:active{
+    background: #007fff;
+    border: 1px solid #003eff;
+    color: #ffffff;
+  }
+
+#myselect option{
+  background-color: #ffffff;
+  font-size: 16px;
+ }
+ #myselect::-ms-expand,
+ #myselect::-webkit-select {
+  position: absolute;
+  right: 5px; /* Adjust the right position as needed */
+  top: 50%; /* Adjust the vertical position as needed */
+  transform: translateY(-50%); 
+ }
