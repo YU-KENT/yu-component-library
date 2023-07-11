@@ -1,6 +1,6 @@
 import React from "react";
 import { ListDeroulant } from "../lib";
-import states from'./datas'
+import {states} from'./datas'
 
 
 

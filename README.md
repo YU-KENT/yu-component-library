@@ -10,6 +10,15 @@
 import ListDeroulant from 'yu-component-library'
 
 // Usage example
+const states = [
+    {
+        "name": "Alabama",
+        "abbreviation": "AL"
+    },
+    {
+        "name": "Alaska",
+        "abbreviation": "AK"
+    }]
 const App = () => (
   <div >
     <h1>Hello React</h1>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../../lib/index.css"
 const ListDeroulant =({
     onChange,
     datas,
@@ -8,10 +8,11 @@ const ListDeroulant =({
 
 }) =>{
 
-      return(    <div> <span>Hello Wordl</span>
-      <select className='' onChange={(e) => onChange(e.target.value)}>
+      return(
+      <div className="bloc">
+      <select id='myselect' onChange={(e) => onChange(e.target.value)}>
       {datas.map((data,index) => {
-      return <option className='' key={index} value={valueName?data[valueName]:''}>{data[optionName]}</option>})}
+      return <option className='option' key={index} value={valueName?data[valueName]:data[optionName]}>{data[optionName]}</option>})}
       </select>
       </div>
       )
