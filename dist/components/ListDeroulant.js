@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
-require("../../lib/index.css");
+require("./ListDeroulant.css");
 var _jsxRuntime = require("react/jsx-runtime");
 var ListDeroulant = function ListDeroulant(_ref) {
   var _onChange = _ref.onChange,
