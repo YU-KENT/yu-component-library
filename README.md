@@ -13,7 +13,7 @@ React Table Library requires the following libraries to be installed:
 ## example
 ```javascript
 // Import the library
-import ListDeroulant from 'yu-component-library'
+import { ListDeroulant } from 'yu-component-library'
 
 // Usage example
 const states = [
